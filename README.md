@@ -55,3 +55,7 @@ https://docs.nupack.org/start/#windows-installation
 2. Install Ubuntu from the Microsoft Store
 3. Open Ubuntu
 4. Continue with the installation instructions for Mac/Linux
+
+## Documentation
+
+- [Nupack](https://docs.nupack.org/)
