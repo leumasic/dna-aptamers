@@ -31,6 +31,8 @@ class MLP(nn.Module) :
             nn.Flatten(),
             nn.Linear(self.input_size, 164),
             nn.ReLU(),
+            nn.Linear(164, 164),
+            nn.ReLU(),
             nn.Linear(164, 32),
             nn.ReLU(),
             nn.Linear(32, self.output_size)
@@ -72,7 +74,7 @@ def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
     model.eval()
     valid_loss = 0
     with torch.no_grad():
-        for batch in tqdm(data_loader):
+        for batch in data_loader:
             x = batch[0]
             y = batch[1]
             x = x.to(device)
@@ -138,6 +140,3 @@ train_set, validation_set = split_dataset(dataset)
 mlp_model = MLP(240, 1)
 
 train(mlp_model, train_set, validation_set, epochs=5, learning_rate=0.1, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
-
-
-print()
