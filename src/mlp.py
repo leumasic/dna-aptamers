@@ -136,7 +136,7 @@ validation_set, test_set = split_dataset(validation_set, split=0.9)
 
 mlp_model = MLP(240, 1)
 
-train(mlp_model, train_set, validation_set, epochs=150, learning_rate=0.005, batch_size=1, loss_func=nn.MSELoss(), device=DEVICE)
+train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=1, loss_func=nn.MSELoss(), device=DEVICE)
 torch.save(mlp_model.state_dict(), './mlp_model.pt')
 
 mlp_model.load_state_dict(torch.load('./mlp_model.pt'))
