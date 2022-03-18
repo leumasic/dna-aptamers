@@ -29,7 +29,7 @@ class MLP(nn.Module) :
 
         self.network = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(self.input_size, 164), nn.ReLU(),
+            nn.Linear(self.input_size, 164), nn.ReLU(), nn.Dropout(0.1),
             nn.Linear(164, 32), nn.ReLU(),
             nn.Linear(32, self.output_size)
         )
@@ -144,6 +144,7 @@ mlp_model.eval()
 mlp_model.to(DEVICE)
 
 test_dataloader = DataLoader(test_set, batch_size=len(test_set))
+# test_dataloader = DataLoader(test_set, batch_size=1)
 
 for batch in test_dataloader:
     x = batch[0]
