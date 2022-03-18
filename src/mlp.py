@@ -29,24 +29,9 @@ class MLP(nn.Module) :
 
         self.network = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(self.input_size, 164),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(164, 256),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(256, 512),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(512, 256),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(256, 164),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(164, 32),
-            nn.ReLU(),
-            nn.Dropout(0.2),
+            nn.Linear(self.input_size, 32), nn.ReLU(),
+            nn.Linear(32, 32), nn.ReLU(),
+
             nn.Linear(32, self.output_size)
         )
 
@@ -69,7 +54,6 @@ def train_epoch(model, data_loader, optimizer: torch.optim, loss_func=nn.MSELoss
         x = x.to(device)
         y = y.to(device)
 
-        # TODO fix float type at source
         output = model.forward(x)
         loss = loss_func(output, y)
         loss.backward()
@@ -92,7 +76,6 @@ def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
             x = x.to(device)
             y = y.to(device)
 
-            # TODO fix float type at source
             output = model.forward(x)
             loss = loss_func(output, y)
             valid_loss += loss.sum().cpu().numpy()
@@ -108,6 +91,7 @@ def train(model, train_dataset, valid_dataset, epochs, learning_rate=0.1, batch_
     valid_dataloader = DataLoader(valid_dataset, batch_size=batch_size)
 
     for i in range(epochs):
+        print('epoch : ', i+1)
         train_epoch(model, train_dataloader, optimizer, loss_func, device)
         valid_epoch(model, valid_dataloader, loss_func, device)
 
@@ -153,10 +137,10 @@ validation_set, test_set = split_dataset(validation_set, split=0.9)
 
 mlp_model = MLP(240, 1)
 
-train(mlp_model, train_set, validation_set, epochs=10, learning_rate=0.0005, batch_size=32, loss_func=nn.MSELoss(), device=DEVICE)
+train(mlp_model, train_set, validation_set, epochs=100, learning_rate=0.001, batch_size=32, loss_func=nn.MSELoss(), device=DEVICE)
 
 
-test_dataloader = DataLoader(test_set, batch_size=1)
+test_dataloader = DataLoader(test_set, batch_size=len(test_set))
 
 
 for batch in test_dataloader:
@@ -165,5 +149,8 @@ for batch in test_dataloader:
     x = x.to(DEVICE)
     y = y.to(DEVICE)
     pred = mlp_model.predict(x)
+    loss = torch.nn.functional.mse_loss(pred.squeeze(), y)
+    print(loss.item())
 
-    print(pred.item(), " ", y.item())
+
+    # print(pred.item(), " ", y.item())
