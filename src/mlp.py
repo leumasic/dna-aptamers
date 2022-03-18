@@ -29,9 +29,8 @@ class MLP(nn.Module) :
 
         self.network = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(self.input_size, 32), nn.ReLU(),
-            nn.Linear(32, 32), nn.ReLU(),
-
+            nn.Linear(self.input_size, 164), nn.ReLU(),
+            nn.Linear(164, 32), nn.ReLU(),
             nn.Linear(32, self.output_size)
         )
 
@@ -137,11 +136,14 @@ validation_set, test_set = split_dataset(validation_set, split=0.9)
 
 mlp_model = MLP(240, 1)
 
-train(mlp_model, train_set, validation_set, epochs=100, learning_rate=0.001, batch_size=32, loss_func=nn.MSELoss(), device=DEVICE)
+train(mlp_model, train_set, validation_set, epochs=100, learning_rate=0.01, batch_size=1, loss_func=nn.MSELoss(), device=DEVICE)
 
+
+torch.save(mlp_model.state_dict(), './mlp_model.pt')
+mlp_model.load_state_dict(torch.load('./mlp_model.pt'))
+mlp_model.eval()
 
 test_dataloader = DataLoader(test_set, batch_size=len(test_set))
-
 
 for batch in test_dataloader:
     x = batch[0]
@@ -153,4 +155,4 @@ for batch in test_dataloader:
     print(loss.item())
 
 
-    # print(pred.item(), " ", y.item())
+    print(pred.item(), " ", y.item())
