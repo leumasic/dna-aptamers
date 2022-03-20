@@ -27,3 +27,5 @@ def frequencyEncode(sequence: str) -> np.ndarray:
 
     return np.array([charToCount['A'], charToCount['C'], charToCount['G'],
         charToCount['T']])
+
+# Add other encodings below as necessary
