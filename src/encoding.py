@@ -9,6 +9,9 @@ baseToClass = {
     'T': 3
 }
 
+def clampSequences(sequences: List[str], maxLength: int) -> List[str]:
+    return [sequence[:maxLength] for sequence in sequences]
+
 def numberEncode(sequence: str) -> List[int]:
     numEncoding = [baseToClass[char] for char in sequence]
 
@@ -29,3 +32,12 @@ def frequencyEncode(sequence: str) -> np.ndarray:
         charToCount['T']])
 
 # Add other encodings below as necessary
+
+# Only some tests in the if block
+if __name__ == '__main__':
+    # Clampity clamp tests
+    sequences = clampSequences(["Sami", "Samuel"], 4)
+    assert(sequences == ["Sami", "Samu"])
+
+    numberEncoding = numberEncode("ACGT")
+    assert(numberEncoding == [0, 1, 2, 3])
