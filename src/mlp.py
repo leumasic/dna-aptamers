@@ -150,8 +150,8 @@ validation_set, test_set = split_dataset(validation_set, split=0.9)
 mlp_model = MLP(240, 1)
 
 # train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
-train(mlp_model, train_set, validation_set, epochs=20, learning_rate=0.005, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
-torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
+# train(mlp_model, train_set, validation_set, epochs=20, learning_rate=0.005, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
+# torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
 
 mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
 mlp_model.eval()
@@ -166,7 +166,8 @@ for batch in test_dataloader:
     x = x.to(DEVICE)
     y = y.to(DEVICE)
     pred = mlp_model.predict(x)
-    loss = torch.nn.functional.mse_loss(pred.squeeze(), y)
+    RMSE = RMSELoss()
+    loss = RMSE(pred.squeeze(), y)
     print(loss.item())
 
     # print(pred.item(), " ", y.item())
