@@ -31,7 +31,7 @@ def free_energy(sequences):
     return energies
 
 
-variable_length_sequences = aptamer_generator()
+variable_length_sequences = aptamer_generator(1000000)
 
 variable_length_energy = free_energy(variable_length_sequences)
 
@@ -39,6 +39,6 @@ variable_length_dataset = np.column_stack(
     (variable_length_sequences, variable_length_energy)
 )
 
-# np.savetxt(
-#     "variable_length_dataset.csv", variable_length_dataset, delimiter=",", fmt="%s"
-# )
+np.savetxt(
+    "1mill_dataset.csv", variable_length_dataset, delimiter=",", fmt="%s"
+)

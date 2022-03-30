@@ -29,9 +29,11 @@ class MLP(nn.Module) :
 
         self.network = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(self.input_size, 164), nn.ReLU(),
-            nn.Linear(164, 32), nn.ReLU(),
-            nn.Linear(32, self.output_size)
+            nn.Linear(self.input_size, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
+            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
+            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
+            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
+            nn.Linear(512, self.output_size)
         )
 
     def forward(self, x):
@@ -54,7 +56,7 @@ def train_epoch(model, data_loader, optimizer: torch.optim, loss_func=nn.MSELoss
         y = y.to(device)
 
         output = model.forward(x)
-        loss = loss_func(output, y)
+        loss = loss_func(output.squeeze(), y)
         loss.backward()
         optimizer.step()
 
@@ -76,7 +78,7 @@ def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
             y = y.to(device)
 
             output = model.forward(x)
-            loss = loss_func(output, y)
+            loss = loss_func(output.squeeze(), y)
             valid_loss += loss.sum().cpu().numpy()
 
     print("Validation loss :", valid_loss/len(data_loader))
@@ -130,16 +132,28 @@ def split_dataset(dataset, seed=42, split=0.8):
     return train, test
 
 
-dataset = make_dataset()
+class RMSELoss(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.mse = nn.MSELoss()
+
+    def forward(self, pred, y):
+        return torch.sqrt(self.mse(pred, y))
+#
+# def RMSELoss(prediction, y):
+#     return torch.sqrt(nn.MSELoss(prediction, y))
+
+dataset = make_dataset('1mill_dataset.csv')
 train_set, validation_set = split_dataset(dataset)
 validation_set, test_set = split_dataset(validation_set, split=0.9)
 
 mlp_model = MLP(240, 1)
 
-train(mlp_model, train_set, validation_set, epochs=200, learning_rate=0.0005, batch_size=1, loss_func=nn.MSELoss(), device=DEVICE)
-torch.save(mlp_model.state_dict(), './mlp_model.pt')
+# train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
+train(mlp_model, train_set, validation_set, epochs=20, learning_rate=0.005, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
+torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
 
-mlp_model.load_state_dict(torch.load('./mlp_model.pt'))
+mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
 mlp_model.eval()
 mlp_model.to(DEVICE)
 
