@@ -3,8 +3,6 @@ import random
 import numpy as np
 import pandas as pd
 from nupack import Strand, Complex, ComplexSet, Model, SetSpec, complex_analysis
-import torch
-from torch.utils.data import TensorDataset
 from encoding import oneHotEncodeMany
 
 
@@ -52,11 +50,13 @@ def loadDataset(fileName="variable_length_dataset.csv", encoding = 'onehot'):
 
     if encoding == 'onehot':
         x = oneHotEncodeMany(sequences)
+    else:
+        raise Exception("How the heck did you get here")
 
-    xTensor= torch.tensor(x, dtype=torch.float32)
-    yTensor = torch.tensor(energies, dtype=torch.float32)
+    # xTensor= torch.tensor(x, dtype=torch.float32)
+    # yTensor = torch.tensor(energies, dtype=torch.float32)
 
-    return TensorDataset(xTensor, yTensor)
+    return x, energies
 
 
 if __name__ == "__main__":

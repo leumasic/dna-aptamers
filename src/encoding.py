@@ -39,17 +39,28 @@ def frequencyEncode(sequence: str) -> np.ndarray:
     return np.array([charToCount['A'], charToCount['C'], charToCount['G'],
         charToCount['T']])
 
-def oneHotEncodeMany(sequences: List[str], maxLength = 60) -> np.ndarray:
+def oneHotEncodeMany(sequences: List[str], seqLength = 60) -> np.ndarray:
+    """
+
+    Args:
+        seqLength (int): Sequences of smaller length than this param get padded
+        and those longer get truncated
+        sequences (List[str]): Sequences to hot encode
+
+    Returns:
+        A numpy ndarray of shape (numSequences, seqLength * 4)
+    """
     numSequences = len(sequences)
-    clampedSequences = clampSequences(sequences, maxLength)
+    clampedSequences = clampSequences(sequences, seqLength)
     numEncoding = numberEncodeMany(clampedSequences)
 
-    encoded = np.zeros((numSequences, maxLength, 4))
+    encoded = np.zeros((numSequences, seqLength * 4))
 
     for i, numSequence in enumerate(numEncoding):
         sequenceLength = len(numSequence)
         oneHot = tf.one_hot(numSequence, 4, dtype=tf.uint8)
-        encoded[i] = np.pad(oneHot, ((0, maxLength - sequenceLength), (0, 0)), mode='constant', constant_values=0) # type: ignore
+        padded = np.pad(oneHot, ((0, seqLength - sequenceLength), (0, 0)), mode='constant', constant_values=0) # type: ignore
+        encoded[i] = padded.flatten()
 
     return encoded
 
