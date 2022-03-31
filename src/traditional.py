@@ -5,7 +5,7 @@ from sklearn.svm import SVR
 from dataset_generator import loadCsvDataset
 
 if __name__ == "__main__":
-    X, Y = loadCsvDataset("variable_length_dataset.csv")
+    X, Y = loadCsvDataset("variable_length_dataset.csv", seqLength = 40)
 
     print(X.shape)
     print(Y.shape)

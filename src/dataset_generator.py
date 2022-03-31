@@ -38,12 +38,13 @@ def getFreeEnergy(sequences: List[str]):
 
     return energies
 
-def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray] = oneHotEncodeMany):
+def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray] = oneHotEncodeMany, **kwargs):
     """Loads a dataset given a csv file's name
 
     Args:
         fileName (str): Csv file name
         encode (Callable[[List[str]], np.ndarray]): An encoding function
+        **kwargs: Additional keyword args are passed to the encode function
 
     Returns:
         A tuple of encoded sequences (vectors) and energies (scalars)
@@ -54,7 +55,7 @@ def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray] = on
     sequences = numpified[:, 0].astype(str)
     energies = numpified[:, 1].astype(float)
 
-    x = encode(sequences)
+    x = encode(sequences, **kwargs)
 
     return x, energies
 
