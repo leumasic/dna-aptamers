@@ -31,6 +31,14 @@ def oneHotEncode(sequence: str) -> np.ndarray:
     return tf.one_hot(numEncoding, 4, dtype=tf.uint8).numpy()
 
 def frequencyEncode(sequence: str) -> np.ndarray:
+    """Encodes a sequence based on the count of distinct nucleotides
+
+    Args:
+        sequence (str): Sequence to encode
+
+    Returns:
+        [count of A, count of C, count of G, count of T]
+    """
     charToCount = { 'A': 0, 'C': 0, 'G': 0, 'T': 0 }
 
     for char in sequence:
@@ -40,6 +48,14 @@ def frequencyEncode(sequence: str) -> np.ndarray:
         charToCount['T']])
 
 def frequencyEncodeMany(sequences: List[str]) -> np.ndarray:
+    """Wrapper around frequencyEncode that encodes a list of sequences
+
+    Args:
+        sequences (List[str]): List of sequences to encode
+
+    Returns:
+        Numpy array of frequency encoded sequences
+    """
     numSequences = len(sequences)
     encoded = np.zeros((numSequences, 4))
 
