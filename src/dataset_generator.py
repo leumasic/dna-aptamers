@@ -1,10 +1,9 @@
-from typing import List
+from typing import List, Callable
 import random
 import numpy as np
 import pandas as pd
 from nupack import Strand, Complex, ComplexSet, Model, SetSpec, complex_analysis
 from encoding import oneHotEncodeMany
-
 
 
 def generateSequence(length: int):
@@ -39,22 +38,23 @@ def getFreeEnergy(sequences: List[str]):
 
     return energies
 
-def loadDataset(fileName="variable_length_dataset.csv", encoding = 'onehot'):
+def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray] = oneHotEncodeMany):
+    """Loads a dataset given a csv file's name
+
+    Args:
+        fileName (str): Csv file name
+        encode (Callable[[List[str]], np.ndarray]): An encoding function
+
+    Returns:
+        A tuple of encoded sequences (vectors) and energies (scalars)
+    """
     data = pd.read_csv(fileName, header=None, delimiter=',', dtype={0: str, 1: float}) # type: ignore
 
     numpified = data.to_numpy() # type: ignore
     sequences = numpified[:, 0].astype(str)
     energies = numpified[:, 1].astype(float)
 
-    x = None
-
-    if encoding == 'onehot':
-        x = oneHotEncodeMany(sequences)
-    else:
-        raise Exception("How the heck did you get here")
-
-    # xTensor= torch.tensor(x, dtype=torch.float32)
-    # yTensor = torch.tensor(energies, dtype=torch.float32)
+    x = encode(sequences)
 
     return x, energies
 

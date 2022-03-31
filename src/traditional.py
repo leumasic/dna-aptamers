@@ -2,10 +2,10 @@ import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression, Lasso, Ridge, ElasticNet
 from sklearn.svm import SVR
-from dataset_generator import loadDataset
+from dataset_generator import loadCsvDataset
 
 if __name__ == "__main__":
-    X, Y = loadDataset("variable_length_dataset.csv")
+    X, Y = loadCsvDataset("variable_length_dataset.csv")
 
     print(X.shape)
     print(Y.shape)
