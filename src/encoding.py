@@ -39,6 +39,15 @@ def frequencyEncode(sequence: str) -> np.ndarray:
     return np.array([charToCount['A'], charToCount['C'], charToCount['G'],
         charToCount['T']])
 
+def frequencyEncodeMany(sequences: List[str]) -> np.ndarray:
+    numSequences = len(sequences)
+    encoded = np.zeros((numSequences, 4))
+
+    for i, seq in enumerate(sequences):
+        encoded[i] = frequencyEncode(seq)
+
+    return encoded
+
 def oneHotEncodeMany(sequences: List[str], seqLength = 60) -> np.ndarray:
     """
 

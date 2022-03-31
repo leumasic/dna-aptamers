@@ -3,7 +3,6 @@ import random
 import numpy as np
 import pandas as pd
 from nupack import Strand, Complex, ComplexSet, Model, SetSpec, complex_analysis
-from encoding import oneHotEncodeMany
 
 
 def generateSequence(length: int):
@@ -38,7 +37,7 @@ def getFreeEnergy(sequences: List[str]):
 
     return energies
 
-def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray] = oneHotEncodeMany, **kwargs):
+def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray], **kwargs):
     """Loads a dataset given a csv file's name
 
     Args:
