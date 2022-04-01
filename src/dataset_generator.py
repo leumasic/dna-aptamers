@@ -1,8 +1,9 @@
-from typing import List, Callable
+from typing import List, Callable, Any, Dict, Tuple, Union
 import random
 import numpy as np
 import pandas as pd
 from nupack import Strand, Complex, ComplexSet, Model, SetSpec, complex_analysis
+from encoding import combineEncodings
 
 
 def generateSequence(length: int):
@@ -37,13 +38,15 @@ def getFreeEnergy(sequences: List[str]):
 
     return energies
 
-def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray], **kwargs):
+def loadCsvDataset(fileName: str, *encodings: Union[Tuple[Callable[[List[str]],
+    np.ndarray], Dict[str, Any]], Callable[[List[str]],
+    np.ndarray]]):
     """Loads a dataset given a csv file's name
 
     Args:
-        fileName (str): Csv file name
-        encode (Callable[[List[str]], np.ndarray]): An encoding function
-        **kwargs: Additional keyword args are passed to the encode function
+        fileName (str): The CSV file's name
+        *encodings (Union[Tuple[Callable[[List[str]],): List of encoding
+        functions of encoding functions and keyword argument dictionary pairs
 
     Returns:
         A tuple of encoded sequences (vectors) and energies (scalars)
@@ -54,7 +57,7 @@ def loadCsvDataset(fileName: str, encode: Callable[[List[str]], np.ndarray], **k
     sequences = numpified[:, 0].astype(str)
     energies = numpified[:, 1].astype(float)
 
-    x = encode(sequences, **kwargs)
+    x = combineEncodings(sequences, *encodings)
 
     return x, energies
 

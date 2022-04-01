@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Callable, Tuple, Dict, Any, Union
 import tensorflow as tf
 import numpy as np
 
@@ -89,6 +89,35 @@ def oneHotEncodeMany(sequences: List[str], seqLength = 60) -> np.ndarray:
 
     return encoded
 
+def combineEncodings(sequences: List[str], *encodings: Union[Tuple[Callable[[List[str]],
+    np.ndarray], Dict[str, Any]], Callable[[List[str]],
+    np.ndarray]]) -> np.ndarray:
+
+    """Encodes given sequences with given encodings
+
+    Args:
+        sequences (List[str]): Sequences to encode
+        *encodings (Tuple[Callable[[List[str]],): List of (encoding, params)
+        pairs
+
+    Returns:
+        Encoded sequences using giving encodings
+    """
+    x = []
+
+    for encoder in encodings:
+        encoded = None
+
+        if isinstance(encoder, tuple):
+            encode, kwargs = encoder
+            encoded = encode(sequences, **kwargs)
+        else:
+            encoded = encoder(sequences)
+
+        x.append(encoded)
+
+    return np.hstack(x)
+
 
 # Add other encodings below as necessary
 
@@ -102,4 +131,7 @@ if __name__ == '__main__':
     assert(numberEncoding == [0, 1, 2, 3])
 
     oneHotMany = oneHotEncodeMany(["ACC", "AGTT"], 5)
-    assert(oneHotMany.shape == (2, 5, 4))
+    assert(oneHotMany.shape == (2, 5 * 4))
+
+    combined = combineEncodings(["ACC", "AGTT"], frequencyEncodeMany, (oneHotEncodeMany, { 'seqLength' : 2}))
+    assert(combined.shape == (2, 2 * 4 + 4))

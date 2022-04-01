@@ -10,7 +10,7 @@ from encoding import oneHotEncodeMany, frequencyEncodeMany
 
 if __name__ == "__main__":
     # X, y = loadCsvDataset("variable_length_dataset.csv", encode = oneHotEncodeMany, seqLength = 40)
-    X, y = loadCsvDataset("variable_length_dataset.csv", encode = frequencyEncodeMany)
+    X, y = loadCsvDataset("./100k_dataset.csv", frequencyEncodeMany, (oneHotEncodeMany, { 'seqLength' : 40}))
     xTrain, xTest, yTrain, yTest = train_test_split(X, y, test_size=0.2, random_state=42)
 
     models: dict[str, LinearModel] = {
