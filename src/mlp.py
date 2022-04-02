@@ -63,7 +63,10 @@ def train_epoch(model, data_loader, optimizer: torch.optim, loss_func=nn.MSELoss
         with torch.no_grad():
             train_loss += loss.cpu().numpy()
 
-    print("Train loss :", train_loss/len(data_loader))
+    mean_loss = train_loss/len(data_loader)
+    print("Train loss :", mean_loss)
+
+    return mean_loss
 
 
 def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
@@ -81,7 +84,10 @@ def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
             loss = loss_func(output.squeeze(), y)
             valid_loss += loss.sum().cpu().numpy()
 
-    print("Validation loss :", valid_loss/len(data_loader))
+    mean_loss = valid_loss/len(data_loader)
+    print("Validation loss :", mean_loss)
+
+    return mean_loss
 
 
 def train(model, train_dataset, valid_dataset, epochs, learning_rate=0.1, batch_size=1, loss_func=nn.MSELoss(), device=DEVICE):
@@ -93,10 +99,10 @@ def train(model, train_dataset, valid_dataset, epochs, learning_rate=0.1, batch_
 
     for i in range(epochs):
         print('epoch : ', i+1)
-        train_epoch(model, train_dataloader, optimizer, loss_func, device)
-        valid_epoch(model, valid_dataloader, loss_func, device)
+        train_loss = train_epoch(model, train_dataloader, optimizer, loss_func, device)
+        valid_loss = valid_epoch(model, valid_dataloader, loss_func, device)
 
-
+    return train_loss, valid_loss
 
 def make_dataset(file_name='variable_length_dataset.csv', targets=DNA_ONE_HOT):
     dataset = pd.read_csv(file_name, header=None, delimiter=',', dtype={0: str, 1: float})
@@ -139,35 +145,58 @@ class RMSELoss(nn.Module):
 
     def forward(self, pred, y):
         return torch.sqrt(self.mse(pred, y))
+
+
+def get_test_loss(dataloader, model, loss_func=RMSELoss()):
+
+    for batch in dataloader:
+        x = batch[0]
+        y = batch[1]
+        x = x.to(DEVICE)
+        y = y.to(DEVICE)
+        pred = model.predict(x)
+        loss = loss_func
+        loss_value = loss(pred.squeeze(), y).item()
+        print('Test loss : ', loss_value)
+
+        return loss_value
+
+
+# dataset = make_dataset('1mill_dataset.csv')
+# train_set, validation_set = split_dataset(dataset)
+# validation_set, test_set = split_dataset(validation_set, split=0.9)
 #
-# def RMSELoss(prediction, y):
-#     return torch.sqrt(nn.MSELoss(prediction, y))
+# test_dataloader = DataLoader(test_set, batch_size=len(test_set))
+#
+# lrs = [0.005, 0.001, 0.0005, 0.0001]
+# epochs = [10, 25, 50, 100, 150]
+# batch_sizes = [1, 5, 10, 50, 100, 1000, 5000, 10000]
+# num_experiments = len(lrs) * len(epochs) * len(batch_sizes)
+# experiments = np.empty((num_experiments, 6))
+#
+# experiment_index = 0
 
-dataset = make_dataset('1mill_dataset.csv')
-train_set, validation_set = split_dataset(dataset)
-validation_set, test_set = split_dataset(validation_set, split=0.9)
+# for lr in lrs:
+#     for epoch in epochs:
+#         for batch_size in batch_sizes:
+#             if experiment_index >= 59:
+#                 mlp_model = MLP(240, 1)
+#                 train_loss, valid_loss = train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.001, batch_size=5000, loss_func=RMSELoss(), device=DEVICE)
+#                 test_loss = get_test_loss(test_dataloader, mlp_model)
+#                 experiments[experiment_index] = np.array([lr, epoch, batch_size, train_loss, valid_loss, test_loss])
 
-mlp_model = MLP(240, 1)
+            # experiment_index += 1
 
-# train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
-# train(mlp_model, train_set, validation_set, epochs=20, learning_rate=0.005, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
+
+# np.save('exp_results.npy', experiments)
+
 # torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
+#
+# mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
+# mlp_model.eval()
+# mlp_model.to(DEVICE)
 
-mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
-mlp_model.eval()
-mlp_model.to(DEVICE)
+res = np.load('exp_results.npy')
 
-test_dataloader = DataLoader(test_set, batch_size=len(test_set))
-# test_dataloader = DataLoader(test_set, batch_size=1)
+print('done')
 
-for batch in test_dataloader:
-    x = batch[0]
-    y = batch[1]
-    x = x.to(DEVICE)
-    y = y.to(DEVICE)
-    pred = mlp_model.predict(x)
-    RMSE = RMSELoss()
-    loss = RMSE(pred.squeeze(), y)
-    print(loss.item())
-
-    # print(pred.item(), " ", y.item())
