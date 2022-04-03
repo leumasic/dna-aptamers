@@ -49,6 +49,7 @@ def train_epoch(model, data_loader, optimizer: torch.optim, loss_func=nn.MSELoss
     model.train()
     train_loss = 0
     for batch in tqdm(data_loader):
+    # for batch in data_loader:
         optimizer.zero_grad()
         x = batch[0]
         y = batch[1]
@@ -161,34 +162,43 @@ def get_test_loss(dataloader, model, loss_func=RMSELoss()):
 
         return loss_value
 
+# dataset = make_dataset('variable_length_dataset.csv')
+# dataset = make_dataset('100k_dataset.csv')
 
 # dataset = make_dataset('1mill_dataset.csv')
 # train_set, validation_set = split_dataset(dataset)
 # validation_set, test_set = split_dataset(validation_set, split=0.9)
 #
 # test_dataloader = DataLoader(test_set, batch_size=len(test_set))
-#
-# lrs = [0.005, 0.001, 0.0005, 0.0001]
-# epochs = [10, 25, 50, 100, 150]
-# batch_sizes = [1, 5, 10, 50, 100, 1000, 5000, 10000]
-# num_experiments = len(lrs) * len(epochs) * len(batch_sizes)
-# experiments = np.empty((num_experiments, 6))
-#
-# experiment_index = 0
 
-# for lr in lrs:
-#     for epoch in epochs:
-#         for batch_size in batch_sizes:
-#             if experiment_index >= 59:
-#                 mlp_model = MLP(240, 1)
-#                 train_loss, valid_loss = train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.001, batch_size=5000, loss_func=RMSELoss(), device=DEVICE)
-#                 test_loss = get_test_loss(test_dataloader, mlp_model)
-#                 experiments[experiment_index] = np.array([lr, epoch, batch_size, train_loss, valid_loss, test_loss])
+def grid_search():
+    # lrs = [0.0005, 0.001, 0.003, 0.005]
+    # epochs = [16, 18, 20, 22,  24]
+    # batch_sizes = [50, 100, 1000, 5000, 10000]
+    lrs = [0.005, 0.001, 0.0005, 0.0001]
+    epochs = [10, 25, 50, 100]
+    batch_sizes = [50, 100, 1000, 5000, 10000]
+    num_experiments = len(lrs) * len(epochs) * len(batch_sizes)
+    experiments = np.empty((num_experiments, 6))
 
-            # experiment_index += 1
+    experiment_index = 0
+
+    for lr in lrs:
+        for epoch in epochs:
+            for batch_size in batch_sizes:
+                print(experiment_index)
+
+                mlp_model = MLP(240, 1)
+                train_loss, valid_loss = train(mlp_model, train_set, validation_set, epochs=epoch, learning_rate=lr, batch_size=batch_size, loss_func=RMSELoss(), device=DEVICE)
+                test_loss = get_test_loss(test_dataloader, mlp_model)
+                experiments[experiment_index] = np.array([lr, epoch, batch_size, train_loss, valid_loss, test_loss])
+
+                experiment_index += 1
 
 
-# np.save('exp_results.npy', experiments)
+    np.save('exp_results.npy', experiments)
+
+# grid_search()
 
 # torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
 #
