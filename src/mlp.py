@@ -165,11 +165,11 @@ def get_test_loss(dataloader, model, loss_func=RMSELoss()):
 # dataset = make_dataset('variable_length_dataset.csv')
 # dataset = make_dataset('100k_dataset.csv')
 
-# dataset = make_dataset('1mill_dataset.csv')
-# train_set, validation_set = split_dataset(dataset)
-# validation_set, test_set = split_dataset(validation_set, split=0.9)
-#
-# test_dataloader = DataLoader(test_set, batch_size=len(test_set))
+dataset = make_dataset('1mill_dataset.csv')
+train_set, validation_set = split_dataset(dataset)
+validation_set, test_set = split_dataset(validation_set, split=0.9)
+
+test_dataloader = DataLoader(test_set, batch_size=len(test_set))
 
 def grid_search():
     # lrs = [0.0005, 0.001, 0.003, 0.005]
@@ -199,6 +199,8 @@ def grid_search():
     np.save('exp_results.npy', experiments)
 
 # grid_search()
+mlp_model = MLP(240, 1)
+train_loss, valid_loss = train(mlp_model, train_set, validation_set, epochs=10, learning_rate=0.005, batch_size=1000, loss_func=RMSELoss(), device=DEVICE)
 
 # torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
 #
