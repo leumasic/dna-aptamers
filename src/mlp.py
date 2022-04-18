@@ -30,9 +30,9 @@ class MLP(nn.Module) :
         self.network = nn.Sequential(
             nn.Flatten(),
             nn.Linear(self.input_size, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
-            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
-            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
-            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
+            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
+            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
+            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
             nn.Linear(512, self.output_size)
         )
 
@@ -63,7 +63,10 @@ def train_epoch(model, data_loader, optimizer: torch.optim, loss_func=nn.MSELoss
         with torch.no_grad():
             train_loss += loss.cpu().numpy()
 
-    print("Train loss :", train_loss/len(data_loader))
+    avg_loss = train_loss/len(data_loader)
+    print("Train loss :", avg_loss)
+
+    return avg_loss
 
 
 def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
@@ -81,7 +84,10 @@ def valid_epoch(model, data_loader, loss_func=nn.MSELoss(), device=DEVICE):
             loss = loss_func(output.squeeze(), y)
             valid_loss += loss.sum().cpu().numpy()
 
-    print("Validation loss :", valid_loss/len(data_loader))
+    avg_loss = valid_loss/len(data_loader)
+    print("Validation loss :", avg_loss)
+
+    return avg_loss
 
 
 def train(model, train_dataset, valid_dataset, epochs, learning_rate=0.1, batch_size=1, loss_func=nn.MSELoss(), device=DEVICE):
@@ -91,11 +97,13 @@ def train(model, train_dataset, valid_dataset, epochs, learning_rate=0.1, batch_
     train_dataloader = DataLoader(train_dataset, batch_size=batch_size)
     valid_dataloader = DataLoader(valid_dataset, batch_size=batch_size)
 
+    training_data = np.empty((epochs, 2))
     for i in range(epochs):
         print('epoch : ', i+1)
-        train_epoch(model, train_dataloader, optimizer, loss_func, device)
-        valid_epoch(model, valid_dataloader, loss_func, device)
+        training_data[i, 0] = train_epoch(model, train_dataloader, optimizer, loss_func, device)
+        training_data[i, 1] = valid_epoch(model, valid_dataloader, loss_func, device)
 
+    return training_data
 
 
 def make_dataset(file_name='variable_length_dataset.csv', targets=DNA_ONE_HOT):
@@ -150,9 +158,9 @@ validation_set, test_set = split_dataset(validation_set, split=0.9)
 mlp_model = MLP(240, 1)
 
 # train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
-# train(mlp_model, train_set, validation_set, epochs=20, learning_rate=0.005, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
-# torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
-
+tr_data = train(mlp_model, train_set, validation_set, epochs=20, learning_rate=0.0003, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
+torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
+np.save('training_data.npy', tr_data)
 mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
 mlp_model.eval()
 mlp_model.to(DEVICE)
@@ -171,3 +179,14 @@ for batch in test_dataloader:
     print(loss.item())
 
     # print(pred.item(), " ", y.item())
+
+
+training_curves = np.load('training_data.npy')
+import matplotlib.pyplot as plt
+
+plt.plot(training_curves[:, 0])
+plt.plot(training_curves[:, 1])
+plt.xlabel('epoch')
+plt.ylabel('RMSE loss')
+plt.title('RMSE loss by training epoch : Basic model')
+plt.savefig('training_curves' + '.png')
