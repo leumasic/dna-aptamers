@@ -29,11 +29,13 @@ class MLP(nn.Module) :
 
         self.network = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(self.input_size, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
-            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
-            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
-            nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
-            nn.Linear(512, self.output_size)
+            nn.Linear(self.input_size, 164), nn.LeakyReLU(), nn.Dropout(0.5), nn.LayerNorm(164),
+            nn.Linear(164, 32), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(32),
+            # nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
+            # nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
+            # nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
+            # nn.Linear(512, self.output_size)
+            nn.Linear(32, self.output_size)
         )
 
     def forward(self, x):
@@ -156,9 +158,10 @@ train_set, validation_set = split_dataset(dataset)
 validation_set, test_set = split_dataset(validation_set, split=0.9)
 
 mlp_model = MLP(240, 1)
+mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
 
 # train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
-tr_data = train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0001, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
+tr_data = train(mlp_model, train_set, validation_set, epochs=100, learning_rate=0.0001, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
 torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
 np.save('training_data.npy', tr_data)
 mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
