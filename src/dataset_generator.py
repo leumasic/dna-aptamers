@@ -10,7 +10,7 @@ def generateSequence(length: int):
     return "".join(random.choice("CGTA") for _ in range(length))
 
 
-def generateSequences(n = 10000, minLength = 20, maxLength = 60):
+def generateSequences(n: int, minLength = 20, maxLength = 60):
     sequences = []
 
     for _ in range(n):
@@ -63,7 +63,7 @@ def loadCsvDataset(fileName: str, *encodings: Union[Tuple[Callable[[List[str]],
 
 
 if __name__ == "__main__":
-    variableLengthSequences = generateSequences()
+    variableLengthSequences = generateSequences(100000, 61, 100)
 
     variableLengthEnergy = getFreeEnergy(variableLengthSequences)
 
@@ -72,5 +72,5 @@ if __name__ == "__main__":
     )
 
     np.savetxt(
-        "variable_length_dataset.csv", sequencesAugEnergy, delimiter=",", fmt="%s"
+        "vlad.csv", sequencesAugEnergy, delimiter=",", fmt="%s"
     )
