@@ -1,0 +1,629 @@
+sending incremental file list
+/home/
+/home/alirezar/
+/home/alirezar/scratch/
+/home/alirezar/scratch/code-snapshots/
+/home/alirezar/scratch/code-snapshots/AliCNNTuning.sh
+/home/alirezar/scratch/code-snapshots/alicnn.sh
+/home/alirezar/scratch/code-snapshots/alicnn1batch.sh
+/home/alirezar/scratch/code-snapshots/alicnn2000batch.sh
+/home/alirezar/scratch/code-snapshots/cnn2.py
+/home/alirezar/scratch/code-snapshots/cnn21batch.py
+/home/alirezar/scratch/code-snapshots/cnn22000batch.py
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm.py
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm.sh
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm_2.py
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm_2.sh
+/home/alirezar/scratch/code-snapshots/cnn_tuning.py
+/home/alirezar/scratch/code-snapshots/core.12720
+/home/alirezar/scratch/code-snapshots/variable_length_dataset(1M).csv
+/home/alirezar/scratch/code-snapshots/variable_length_dataset(30-1M).csv
+/home/alirezar/scratch/code-snapshots/variable_length_dataset.csv
+/home/alirezar/scratch/code-snapshots/.venv/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/pyvenv.cfg
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.csh
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.fish
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.ps1
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.xsh
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate_this.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/easy_install
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/easy_install-3.9
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/easy_install3
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/python -> /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/python/3.9.6/bin/python3.9
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/python3 -> python
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/python3.9 -> python
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/wheel
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/wheel-3.9
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/wheel3
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/_virtualenv.pth
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/_virtualenv.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/easy_install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.virtualenv
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.virtualenv
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/__pycache__/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/__pycache__/_virtualenv.cpython-39.pyc
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/py2_warn.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/py31compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/appdirs.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/pyparsing.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/six.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/__about__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/_compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/_structures.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/markers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/requirements.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/specifiers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/utils.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/extern/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/extern/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/INSTALLER
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/LICENSE
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/METADATA
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/RECORD
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/WHEEL
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/dependency_links.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/entry_points.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/top_level.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/zip-safe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_deprecation_warning.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_imp.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/archive_util.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/build_meta.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/cli-32.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/cli-64.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/cli.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/config.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/dep_util.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/depends.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/dist.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/errors.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/extension.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/glob.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/gui-32.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/gui-64.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/gui.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/installer.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/launch.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/lib2to3_ex.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/monkey.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/msvc.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/namespaces.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/package_index.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py27compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py31compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py33compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py34compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/sandbox.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/script (dev).tmpl
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/script.tmpl
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/site-patch.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/ssl_support.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/unicode_utils.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/wheel.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/windows_support.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/ordered_set.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/pyparsing.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/six.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/__about__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/_compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/_structures.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/markers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/requirements.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/specifiers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/tags.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/utils.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/alias.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/bdist_egg.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/bdist_rpm.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/bdist_wininst.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/build_clib.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/build_ext.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/build_py.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/develop.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/dist_info.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/easy_install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/egg_info.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install_egg_info.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install_lib.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install_scripts.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/launcher manifest.xml
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/py36compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/register.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/rotate.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/saveopts.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/sdist.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/setopt.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/test.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/upload.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/upload_docs.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/extern/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/extern/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/INSTALLER
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/LICENSE.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/METADATA
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/RECORD
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/WHEEL
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/entry_points.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/top_level.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/__main__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/_version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/bdist_wheel.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/macosx_libfile.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/metadata.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/pep425tags.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/pkginfo.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/util.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/wheelfile.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/convert.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/pack.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/unpack.py
+
+sent 3,677,453,796 bytes  received 3,239 bytes  90,801,408.27 bytes/sec
+total size is 3,676,544,618  speedup is 1.00
+created virtual environment CPython3.9.6.final.0-64 in 5228ms
+  creator CPython3Posix(dest=/localscratch/alirezar.487.0/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/alirezar/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx512, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting pip
+  Using cached pip-22.0.4-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-22.0.4
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx512, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.22.2+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pandas-1.4.1+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scikit_learn-1.0.2+computecanada-cp39-cp39-linux_x86_64.whl
+Collecting tqdm
+  Using cached tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/torch-1.10.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pytz-2022.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/joblib-1.1.0+computecanada-py2.py3-none-any.whl
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.8.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.1.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Installing collected packages: pytz, typing-extensions, tqdm, threadpoolctl, six, numpy, joblib, torch, scipy, python-dateutil, scikit-learn, pandas
+Successfully installed joblib-1.1.0+computecanada numpy-1.22.2+computecanada pandas-1.4.1+computecanada python-dateutil-2.8.2+computecanada pytz-2022.1+computecanada scikit-learn-1.0.2+computecanada scipy-1.8.0+computecanada six-1.16.0+computecanada threadpoolctl-3.1.0 torch-1.10.0+computecanada tqdm-4.64.0 typing-extensions-4.1.1+computecanada
+Currently using:
+/localscratch/alirezar.487.0/venv/bin/python
+in:
+/localscratch/alirezar.487.0/home/alirezar/scratch/code-snapshots
+sbatch file name: /var/spool/slurmd/job00487/slurm_script
+Train loss : 0.9153240907937288
+Validation loss : 0.8863615208864212
+Train loss : 0.8753683413565159
+Validation loss : 0.8647661781311036
+Train loss : 0.8666780990362167
+Validation loss : 0.8445495042204857
+Train loss : 0.859977992400527
+Validation loss : 0.842707006931305
+Train loss : 0.8550898499041796
+Validation loss : 0.8332871997356415
+Train loss : 0.8520669554173946
+Validation loss : 0.8317262327671051
+Train loss : 0.8491486306488514
+Validation loss : 0.8276815471053124
+Train loss : 0.8468556917458773
+Validation loss : 0.8276937520503997
+Train loss : 0.8448650825768709
+Validation loss : 0.8236298078298568
+Train loss : 0.8430783570557833
+Validation loss : 0.821876654624939
+Train loss : 0.8413020433485507
+Validation loss : 0.8210870519280433
+Train loss : 0.8393771041929722
+Validation loss : 0.8181097280979156
+Train loss : 0.8376651460677386
+Validation loss : 0.8183821529150009
+Train loss : 0.8355734715610743
+Validation loss : 0.8192297720909119
+Train loss : 0.8343316432833672
+Validation loss : 0.8155131277441978
+Train loss : 0.8328723035752773
+Validation loss : 0.8119529286026954
+Train loss : 0.8318347375094891
+Validation loss : 0.8119749826192856
+Train loss : 0.8303908897191286
+Validation loss : 0.8082343170046806
+Train loss : 0.829330751746893
+Validation loss : 0.810172927081585
+Train loss : 0.8284706854075193
+Validation loss : 0.8102013900876045
+Train loss : 0.8269391214102506
+Validation loss : 0.806642287671566
+Train loss : 0.82592375703156
+Validation loss : 0.8032326206564904
+Train loss : 0.8249929118901491
+Validation loss : 0.8037069147825241
+Train loss : 0.8237042693048715
+Validation loss : 0.8040990492701531
+Train loss : 0.823183025047183
+Validation loss : 0.802022814154625
+Train loss : 0.8217806984484196
+Validation loss : 0.8054366308450699
+Train loss : 0.8213508722931147
+Validation loss : 0.8004386588931084
+Train loss : 0.820187284424901
+Validation loss : 0.801352159678936
+Train loss : 0.8192166082561017
+Validation loss : 0.8030378547310829
+Train loss : 0.8185655353963375
+Validation loss : 0.7992317724227905
+Train loss : 0.8182177330553532
+Validation loss : 0.7966045507788658
+Train loss : 0.8171394833177328
+Validation loss : 0.8003340518474579
+Train loss : 0.8169565793126822
+Validation loss : 0.7979355928301811
+Train loss : 0.8155350621789694
+Validation loss : 0.7995162039995194
+Train loss : 0.8152376779913902
+Validation loss : 0.7988514059782028
+Train loss : 0.8146041040867567
+Validation loss : 0.7968150609731675
+Train loss : 0.8146398933976888
+Validation loss : 0.7977012854814529
+Train loss : 0.8136225764453411
+Validation loss : 0.79372618496418
+Train loss : 0.8134447279572486
+Validation loss : 0.7986203393340111
+Train loss : 0.8127010314911604
+Validation loss : 0.7982663375139236
+Train loss : 0.8125759760290384
+Validation loss : 0.7928882518410683
+Train loss : 0.8118960666656494
+Validation loss : 0.7945204132795334
+Train loss : 0.8113128146529198
+Validation loss : 0.7934728863835335
+Train loss : 0.8112661725282669
+Validation loss : 0.7937831795215606
+Train loss : 0.8105576421320438
+Validation loss : 0.7913768038153648
+Train loss : 0.8102525843679905
+Validation loss : 0.7909634205698967
+Train loss : 0.8100469422340393
+Validation loss : 0.793921414911747
+Train loss : 0.8098333878070116
+Validation loss : 0.7902742466330528
+Train loss : 0.8089408339560031
+Validation loss : 0.7924173364043235
+Train loss : 0.8088100456446409
+Validation loss : 0.7925634753704071
+Train loss : 0.8086038731783628
+Validation loss : 0.7912401881814003
+Train loss : 0.8080618177354336
+Validation loss : 0.7891864812374115
+Train loss : 0.8079921561479568
+Validation loss : 0.789667743742466
+Train loss : 0.807200139760971
+Validation loss : 0.7887791928648948
+Train loss : 0.8067626685649156
+Validation loss : 0.7912551811337472
+Train loss : 0.8068970014154911
+Validation loss : 0.7887241497635842
+Train loss : 0.806287325322628
+Validation loss : 0.7894102972745896
+Train loss : 0.8062440436333418
+Validation loss : 0.7890044340491295
+Train loss : 0.8059739895910024
+Validation loss : 0.7920589724183082
+Train loss : 0.8055561407655477
+Validation loss : 0.7921517503261566
+Train loss : 0.8053039757162332
+Validation loss : 0.7899927660822869
+Train loss : 0.8048893321305514
+Validation loss : 0.7863896730542183
+Train loss : 0.8046623890846968
+Validation loss : 0.7877567735314369
+Train loss : 0.8045884849131107
+Validation loss : 0.7882473826408386
+Train loss : 0.8041507262736559
+Validation loss : 0.7900710815191269
+Train loss : 0.8038706441968679
+Validation loss : 0.7874669232964515
+Train loss : 0.8035421377420425
+Validation loss : 0.7920215347409248
+Train loss : 0.8035075958818197
+Validation loss : 0.7902364298701287
+Train loss : 0.8031768166273833
+Validation loss : 0.7892008358240128
+Train loss : 0.8029647848010063
+Validation loss : 0.7882405155897141
+Train loss : 0.802592446282506
+Validation loss : 0.7850953352451324
+Train loss : 0.802179918140173
+Validation loss : 0.787149153649807
+Train loss : 0.8020919403433799
+Validation loss : 0.78881556391716
+Train loss : 0.8022452716529369
+Validation loss : 0.7872343981266021
+Train loss : 0.8014467633515596
+Validation loss : 0.7898881283402442
+Train loss : 0.8015673363953829
+Validation loss : 0.7864969843626022
+Train loss : 0.8016552595049142
+Validation loss : 0.787751924097538
+Train loss : 0.801271344050765
+Validation loss : 0.7889963421225548
+Train loss : 0.8010728254914283
+Validation loss : 0.7886267521977425
+Train loss : 0.8012496930360794
+Validation loss : 0.7871927309036255
+Train loss : 0.8006219553947449
+Validation loss : 0.7853450229763985
+Train loss : 0.800285632237792
+Validation loss : 0.7856481799483299
+Train loss : 0.8003011029958725
+Validation loss : 0.7846829450130463
+Train loss : 0.8001963796466589
+Validation loss : 0.7860901999473572
+Train loss : 0.7999171192198992
+Validation loss : 0.784900216460228
+Train loss : 0.8000462018698454
+Validation loss : 0.7868341365456581
+Train loss : 0.7995355982333422
+Validation loss : 0.7855007568001747
+Train loss : 0.7999416860193014
+Validation loss : 0.7871602925658227
+Train loss : 0.7988946617394685
+Validation loss : 0.7833755576610565
+Train loss : 0.798983001857996
+Validation loss : 0.7849406358599663
+Train loss : 0.7986153644323349
+Validation loss : 0.7931877663731575
+Train loss : 0.7984223944693803
+Validation loss : 0.7865903598070144
+Train loss : 0.7985374104231596
+Validation loss : 0.7851076596975326
+Train loss : 0.7984308739006519
+Validation loss : 0.7829573279619217
+Train loss : 0.7984931364655494
+Validation loss : 0.7852146407961845
+Train loss : 0.7982275784015656
+Validation loss : 0.7839871600270272
+Train loss : 0.7978751499950886
+Validation loss : 0.7880213156342506
+Train loss : 0.7977715659886598
+Validation loss : 0.781291720867157
+Train loss : 0.7980230298638343
+Validation loss : 0.7845905756950379
+Train loss : 0.7976258789002896
+Validation loss : 0.782342613041401
+Train loss : 0.797267023473978
+Validation loss : 0.7822164380550385
+Train loss : 0.7974912928044796
+Validation loss : 0.7836193576455116
+Train loss : 0.7973364134132862
+Validation loss : 0.7820197969675065
+Train loss : 0.7971014311164617
+Validation loss : 0.783980521261692
+Train loss : 0.797194879874587
+Validation loss : 0.7823362517356872
+Train loss : 0.7967121022939682
+Validation loss : 0.7834350317716599
+Train loss : 0.7966583054512739
+Validation loss : 0.780214239358902
+Train loss : 0.7961408004909754
+Validation loss : 0.7790687713027
+Train loss : 0.7958714099973441
+Validation loss : 0.7783842986822128
+Train loss : 0.7962832695990801
+Validation loss : 0.7791858386993408
+Train loss : 0.7964252802729607
+Validation loss : 0.7799712774157525
+Train loss : 0.7958422320336104
+Validation loss : 0.7793922448158264
+Train loss : 0.7955774047970772
+Validation loss : 0.7816624200344086
+Train loss : 0.7961259999126196
+Validation loss : 0.7808829620480537
+Train loss : 0.7957804869115352
+Validation loss : 0.7803273695707321
+Train loss : 0.7954431023448706
+Validation loss : 0.7796294164657592
+Train loss : 0.7954094748198987
+Validation loss : 0.7793584287166595
+Train loss : 0.7951419033855199
+Validation loss : 0.7789800468087197
+Train loss : 0.7947828965634107
+Validation loss : 0.783065779209137
+Train loss : 0.7948219238221645
+Validation loss : 0.7802094578742981
+Train loss : 0.7950103209912777
+Validation loss : 0.7808462193608284
+Train loss : 0.794574362039566
+Validation loss : 0.7807168552279472
+Train loss : 0.794498919248581
+Validation loss : 0.7817629933357239
+Train loss : 0.7947964977473021
+Validation loss : 0.7782951974868775
+Train loss : 0.794592759385705
+Validation loss : 0.7813638696074485
+Train loss : 0.7948462082445622
+Validation loss : 0.7787625122070313
+Train loss : 0.7942864535003901
+Validation loss : 0.779946882724762
+Train loss : 0.7940091414749623
+Validation loss : 0.7805060544610023
+Train loss : 0.7942828635126352
+Validation loss : 0.778241186439991
+Train loss : 0.7937384742498398
+Validation loss : 0.782868272960186
+Train loss : 0.7935682725161314
+Validation loss : 0.7773226010799408
+Train loss : 0.793337797448039
+Validation loss : 0.7791529539227485
+Train loss : 0.7933067659288645
+Validation loss : 0.7778599682450295
+Train loss : 0.7936430710554123
+Validation loss : 0.7779354646801948
+Train loss : 0.7933539560437203
+Validation loss : 0.7777267527580262
+Train loss : 0.7930065254867077
+Validation loss : 0.7775295794010162
+Train loss : 0.7930186825990677
+Validation loss : 0.7774041625857353
+Train loss : 0.7928674626350403
+Validation loss : 0.7770878094434738
+Train loss : 0.7932816240936518
+Validation loss : 0.7776702058315277
+Train loss : 0.7929402096569538
+Validation loss : 0.7787813225388527
+Train loss : 0.7928224416822195
+Validation loss : 0.7798342609405517
+Train loss : 0.7926845817267895
+Validation loss : 0.7795372253656387
+Train loss : 0.7928499765694141
+Validation loss : 0.7785260185599328
+Train loss : 0.7924185205250979
+Validation loss : 0.7779460734128952
+Train loss : 0.7923089642077684
+Validation loss : 0.7795907923579216
+Train loss : 0.7924813129007816
+Validation loss : 0.7794726210832595
+Train loss : 0.791943411231041
+Validation loss : 0.7773597350716591
+Train loss : 0.792071017101407
+Validation loss : 0.7761664029955864
+Train loss : 0.7919774877279997
+Validation loss : 0.7791468065977096
+Train loss : 0.7922088650614023
+Validation loss : 0.7773478499054909
+Train loss : 0.7920721258968115
+Validation loss : 0.7775171399116516
+Train loss : 0.7920440419763327
+Validation loss : 0.7797099468111992
+Train loss : 0.7919892951846123
+Validation loss : 0.7770058289170265
+Train loss : 0.7915918430685998
+Validation loss : 0.777587089240551
+Train loss : 0.7915096178650856
+Validation loss : 0.775897073149681
+Train loss : 0.7915877172350884
+Validation loss : 0.7815279889106751
+Train loss : 0.7916844036430121
+Validation loss : 0.7756523725390434
+Train loss : 0.7913658226281405
+Validation loss : 0.7800230732560158
+Train loss : 0.7910734438151121
+Validation loss : 0.776380890905857
+Train loss : 0.7910256176441908
+Validation loss : 0.7757568949460983
+Train loss : 0.7910840394347907
+Validation loss : 0.7757967352867127
+Train loss : 0.791216338351369
+Validation loss : 0.7782956799864769
+Train loss : 0.7909227460622787
+Validation loss : 0.7802711611986161
+Train loss : 0.7909818690270185
+Validation loss : 0.7761903563141823
+Train loss : 0.7906850524991751
+Validation loss : 0.7741386699676513
+Train loss : 0.790559656843543
+Validation loss : 0.7772968643903733
+Train loss : 0.7909012632071972
+Validation loss : 0.7766405469179154
+Train loss : 0.7905717150866985
+Validation loss : 0.7773664265871048
+Train loss : 0.7904277814924717
+Validation loss : 0.7761167266964912
+Train loss : 0.7898972215503455
+Validation loss : 0.7755608904361725
+Train loss : 0.790347027182579
+Validation loss : 0.7770291501283646
+Train loss : 0.790255328938365
+Validation loss : 0.7741991579532623
+Train loss : 0.7897848238795996
+Validation loss : 0.7765809577703476
+Train loss : 0.7901241862773896
+Validation loss : 0.7739484888315201
+Train loss : 0.7899842039495707
+Validation loss : 0.7740484204888344
+Train loss : 0.7898677972704172
+Validation loss : 0.7745399117469788
+Train loss : 0.7898045342415572
+Validation loss : 0.775955146253109
+Train loss : 0.7897418292611837
+Validation loss : 0.7756655097007752
+Train loss : 0.7898199716210366
+Validation loss : 0.7751063701510429
+Train loss : 0.7898531071841717
+Validation loss : 0.7770754310488701
+Train loss : 0.7891091346740723
+Validation loss : 0.7734769806265831
+Train loss : 0.7894479776173831
+Validation loss : 0.7735401919484138
+Train loss : 0.7890924049913883
+Validation loss : 0.7746710106730461
+Train loss : 0.7896831574290991
+Validation loss : 0.7739976453781128
+Train loss : 0.7893228040635586
+Validation loss : 0.7754947143793106
+Train loss : 0.7890211293846369
+Validation loss : 0.7752961313724518
+Train loss : 0.7892315764725208
+Validation loss : 0.7761304715275764
+Train loss : 0.7889618093520403
+Validation loss : 0.7744850587844848
+Train loss : 0.7891850218176841
+Validation loss : 0.7719851976633072
+Train loss : 0.7896089193969965
+Validation loss : 0.7745604011416435
+Train loss : 0.7893160941451788
+Validation loss : 0.7742162063717842
+Train loss : 0.7888262934982777
+Validation loss : 0.7774897500872612
+Train loss : 0.7883527756482362
+Validation loss : 0.77245798766613
+Train loss : 0.7885332349687815
+Validation loss : 0.7757629051804542
+Train loss : 0.7888433968275785
+Validation loss : 0.7726684492826462
+Train loss : 0.7887421633303165
+Validation loss : 0.7777729481458664
+Train loss : 0.7880627380311489
+Validation loss : 0.7720780447125435
+Train loss : 0.7881003511697053
+Validation loss : 0.7730741775035859
+Train loss : 0.788519994392991
+Validation loss : 0.7738680207729339
+Train loss : 0.788271092697978
+Validation loss : 0.7759267446398735
