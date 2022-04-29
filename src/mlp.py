@@ -29,7 +29,7 @@ class MLP(nn.Module) :
 
         self.network = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(self.input_size, 512), nn.LeakyReLU(), nn.Dropout(0.25), nn.LayerNorm(512),
+            nn.Linear(self.input_size, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
             nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
             nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
             nn.Linear(512, 512), nn.LeakyReLU(), nn.Dropout(0.5), nn.BatchNorm1d(512),
@@ -166,7 +166,6 @@ mlp_model.eval()
 mlp_model.to(DEVICE)
 
 test_dataloader = DataLoader(test_set, batch_size=len(test_set))
-# test_dataloader = DataLoader(test_set, batch_size=1)
 
 for batch in test_dataloader:
     x = batch[0]
@@ -177,8 +176,6 @@ for batch in test_dataloader:
     RMSE = RMSELoss()
     loss = RMSE(pred.squeeze(), y)
     print(loss.item())
-
-    # print(pred.item(), " ", y.item())
 
 
 training_curves = np.load('training_data.npy')
