@@ -1,0 +1,1037 @@
+sending incremental file list
+/home/
+/home/alirezar/
+/home/alirezar/scratch/
+/home/alirezar/scratch/code-snapshots/
+/home/alirezar/scratch/code-snapshots/AliCNNTuning.sh
+/home/alirezar/scratch/code-snapshots/alicnn.sh
+/home/alirezar/scratch/code-snapshots/alicnn1batch.sh
+/home/alirezar/scratch/code-snapshots/alicnn2000batch.sh
+/home/alirezar/scratch/code-snapshots/cnn2.py
+/home/alirezar/scratch/code-snapshots/cnn21batch.py
+/home/alirezar/scratch/code-snapshots/cnn22000batch.py
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm.py
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm.sh
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm_2.py
+/home/alirezar/scratch/code-snapshots/cnn_30_1M_norm_2.sh
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_norm.py
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_norm.sh
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_withoutnorm.py
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_withoutnorm.sh
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_withoutnorm_deeper.py
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_withoutnorm_deeper.sh
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_withoutnorm_deeper_1000batch.py
+/home/alirezar/scratch/code-snapshots/cnn_60_1M_withoutnorm_deeper_1000batch.sh
+/home/alirezar/scratch/code-snapshots/cnn_tuning.py
+/home/alirezar/scratch/code-snapshots/core.12720
+/home/alirezar/scratch/code-snapshots/variable_length_dataset(1M).csv
+/home/alirezar/scratch/code-snapshots/variable_length_dataset(30-1M).csv
+/home/alirezar/scratch/code-snapshots/variable_length_dataset.csv
+/home/alirezar/scratch/code-snapshots/.venv/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/pyvenv.cfg
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.csh
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.fish
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.ps1
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate.xsh
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/activate_this.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/easy_install
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/easy_install-3.9
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/easy_install3
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/python -> /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/python/3.9.6/bin/python3.9
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/python3 -> python
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/python3.9 -> python
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/wheel
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/wheel-3.9
+/home/alirezar/scratch/code-snapshots/.venv/cnn/bin/wheel3
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/_virtualenv.pth
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/_virtualenv.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/easy_install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.virtualenv
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.virtualenv
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/__pycache__/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/__pycache__/_virtualenv.cpython-39.pyc
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/py2_warn.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/py31compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/appdirs.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/pyparsing.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/six.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/__about__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/_compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/_structures.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/markers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/requirements.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/specifiers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/utils.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/extern/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/pkg_resources/extern/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/INSTALLER
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/LICENSE
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/METADATA
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/RECORD
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/WHEEL
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/dependency_links.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/entry_points.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/top_level.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools-46.1.3.dist-info/zip-safe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_deprecation_warning.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_imp.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/archive_util.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/build_meta.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/cli-32.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/cli-64.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/cli.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/config.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/dep_util.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/depends.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/dist.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/errors.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/extension.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/glob.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/gui-32.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/gui-64.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/gui.exe
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/installer.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/launch.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/lib2to3_ex.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/monkey.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/msvc.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/namespaces.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/package_index.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py27compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py31compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py33compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/py34compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/sandbox.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/script (dev).tmpl
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/script.tmpl
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/site-patch.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/ssl_support.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/unicode_utils.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/wheel.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/windows_support.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/ordered_set.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/pyparsing.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/six.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/__about__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/_compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/_structures.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/markers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/requirements.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/specifiers.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/tags.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/utils.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/_vendor/packaging/version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/alias.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/bdist_egg.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/bdist_rpm.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/bdist_wininst.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/build_clib.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/build_ext.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/build_py.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/develop.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/dist_info.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/easy_install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/egg_info.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install_egg_info.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install_lib.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/install_scripts.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/launcher manifest.xml
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/py36compat.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/register.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/rotate.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/saveopts.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/sdist.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/setopt.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/test.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/upload.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/command/upload_docs.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/extern/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/setuptools/extern/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/INSTALLER
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/LICENSE.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/METADATA
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/RECORD
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/WHEEL
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/entry_points.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel-0.34.2.dist-info/top_level.txt
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/__main__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/_version.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/bdist_wheel.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/macosx_libfile.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/metadata.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/pep425tags.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/pkginfo.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/util.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/wheelfile.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/__init__.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/convert.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/install.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/pack.py
+/home/alirezar/scratch/code-snapshots/.venv/cnn/lib/python3.9/site-packages/wheel/cli/unpack.py
+
+sent 3,677,484,696 bytes  received 3,391 bytes  100,753,098.27 bytes/sec
+total size is 3,676,574,911  speedup is 1.00
+created virtual environment CPython3.9.6.final.0-64 in 5357ms
+  creator CPython3Posix(dest=/localscratch/alirezar.500.0/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/alirezar/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx512, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting pip
+  Using cached pip-22.0.4-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-22.0.4
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx512, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.22.2+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pandas-1.4.1+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scikit_learn-1.0.2+computecanada-cp39-cp39-linux_x86_64.whl
+Collecting tqdm
+  Using cached tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/torch-1.10.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pytz-2022.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.8.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/joblib-1.1.0+computecanada-py2.py3-none-any.whl
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.1.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Installing collected packages: pytz, typing-extensions, tqdm, threadpoolctl, six, numpy, joblib, torch, scipy, python-dateutil, scikit-learn, pandas
+Successfully installed joblib-1.1.0+computecanada numpy-1.22.2+computecanada pandas-1.4.1+computecanada python-dateutil-2.8.2+computecanada pytz-2022.1+computecanada scikit-learn-1.0.2+computecanada scipy-1.8.0+computecanada six-1.16.0+computecanada threadpoolctl-3.1.0 torch-1.10.0+computecanada tqdm-4.64.0 typing-extensions-4.1.1+computecanada
+Currently using:
+/localscratch/alirezar.500.0/venv/bin/python
+in:
+/localscratch/alirezar.500.0/home/alirezar/scratch/code-snapshots
+sbatch file name: /var/spool/slurmd/job00500/slurm_script
+Train loss : 1.7181640323996543
+Validation loss : 1.6286009019613266
+Train loss : 1.6477362751960754
+Validation loss : 1.6031410419940948
+Train loss : 1.635214774608612
+Validation loss : 1.6093445724248887
+Train loss : 1.6251908425986767
+Validation loss : 1.6265993696451186
+Train loss : 1.6184614682197571
+Validation loss : 1.5872316867113114
+Train loss : 1.6118733757734298
+Validation loss : 1.5948955690860749
+Train loss : 1.6049576757848263
+Validation loss : 1.5685345911979676
+Train loss : 1.5986348678171636
+Validation loss : 1.600206686258316
+Train loss : 1.591652491092682
+Validation loss : 1.5563929003477097
+Train loss : 1.583690309971571
+Validation loss : 1.5541543030738831
+Train loss : 1.5769042555987836
+Validation loss : 1.555112243294716
+Train loss : 1.571847553253174
+Validation loss : 1.5404179173707961
+Train loss : 1.567832286208868
+Validation loss : 1.5358097761869431
+Train loss : 1.5643531446158887
+Validation loss : 1.5347129887342452
+Train loss : 1.56160945802927
+Validation loss : 1.5367490828037262
+Train loss : 1.5595240399241448
+Validation loss : 1.575460975766182
+Train loss : 1.5561755600571632
+Validation loss : 1.5295300662517548
+Train loss : 1.5547447635233402
+Validation loss : 1.5267755526304245
+Train loss : 1.552733256816864
+Validation loss : 1.526417293548584
+Train loss : 1.5511332723498343
+Validation loss : 1.532506388425827
+Train loss : 1.5498026575148105
+Validation loss : 1.5210530817508698
+Train loss : 1.5476909799873828
+Validation loss : 1.5303705859184265
+Train loss : 1.546245846748352
+Validation loss : 1.5225534862279893
+Train loss : 1.5441159722208977
+Validation loss : 1.5168762922286987
+Train loss : 1.5424968636035918
+Validation loss : 1.5213790726661682
+Train loss : 1.5424204702675341
+Validation loss : 1.5198583257198335
+Train loss : 1.5398724734783173
+Validation loss : 1.5263118314743043
+Train loss : 1.539877701252699
+Validation loss : 1.511879580616951
+Train loss : 1.538453524261713
+Validation loss : 1.5221196311712264
+Train loss : 1.5374906730651856
+Validation loss : 1.5130521780252457
+Train loss : 1.535409046560526
+Validation loss : 1.5119034337997437
+Train loss : 1.5342598509788514
+Validation loss : 1.5107464241981505
+Train loss : 1.5343428437411786
+Validation loss : 1.5326369434595108
+Train loss : 1.53354597479105
+Validation loss : 1.5257160794734954
+Train loss : 1.531138936430216
+Validation loss : 1.5110520768165587
+Train loss : 1.530334832072258
+Validation loss : 1.509433363676071
+Train loss : 1.530301140397787
+Validation loss : 1.5107499939203262
+Train loss : 1.5298486451804638
+Validation loss : 1.5070242100954057
+Train loss : 1.528468180000782
+Validation loss : 1.5161549925804139
+Train loss : 1.5263681089878083
+Validation loss : 1.5038769501447677
+Train loss : 1.5266993351280689
+Validation loss : 1.5296726113557815
+Train loss : 1.5255217388272286
+Validation loss : 1.5097362911701202
+Train loss : 1.5250588507950307
+Validation loss : 1.511753454208374
+Train loss : 1.52375805452466
+Validation loss : 1.5119278365373612
+Train loss : 1.5231428863108158
+Validation loss : 1.5288947319984436
+Train loss : 1.5222480887174605
+Validation loss : 1.526092556118965
+Train loss : 1.5209915198385715
+Validation loss : 1.5021016252040864
+Train loss : 1.520451355278492
+Validation loss : 1.5008653301000594
+Train loss : 1.5201862311363221
+Validation loss : 1.503464450240135
+Train loss : 1.5187778444588185
+Validation loss : 1.503069525361061
+Train loss : 1.5176843789219856
+Validation loss : 1.503530832529068
+Train loss : 1.5172804325819016
+Validation loss : 1.503591970205307
+Train loss : 1.5167907282710076
+Validation loss : 1.5318394100666046
+Train loss : 1.5157042314112186
+Validation loss : 1.5099429684877395
+Train loss : 1.5151380111277104
+Validation loss : 1.5087930482625962
+Train loss : 1.5145283280313016
+Validation loss : 1.4959863311052322
+Train loss : 1.5136913466453552
+Validation loss : 1.5044569247961044
+Train loss : 1.5136072711646558
+Validation loss : 1.4974457764625548
+Train loss : 1.5126351146399974
+Validation loss : 1.4928998446464539
+Train loss : 1.5127192072570324
+Validation loss : 1.5032961893081664
+Train loss : 1.5119482888281346
+Validation loss : 1.4985706448554992
+Train loss : 1.5110080535709858
+Validation loss : 1.5146186769008636
+Train loss : 1.5103433750569821
+Validation loss : 1.508263761997223
+Train loss : 1.5101016406714916
+Validation loss : 1.4963775098323822
+Train loss : 1.5086096119880676
+Validation loss : 1.4909053552150726
+Train loss : 1.508942149579525
+Validation loss : 1.4961830496788024
+Train loss : 1.5082043950259685
+Validation loss : 1.4964491736888885
+Train loss : 1.508010006994009
+Validation loss : 1.4935697585344314
+Train loss : 1.5063020335137844
+Validation loss : 1.492797281742096
+Train loss : 1.5058842812478543
+Validation loss : 1.5025272071361542
+Train loss : 1.505257879048586
+Validation loss : 1.4989622497558595
+Train loss : 1.5049451667070388
+Validation loss : 1.499292277097702
+Train loss : 1.5049546565115453
+Validation loss : 1.515969944000244
+Train loss : 1.5040448576211929
+Validation loss : 1.5093108415603638
+Train loss : 1.503308049738407
+Validation loss : 1.4902665197849274
+Train loss : 1.502398611754179
+Validation loss : 1.494770768880844
+Train loss : 1.502934264689684
+Validation loss : 1.4881199425458909
+Train loss : 1.5021095860004425
+Validation loss : 1.4928847134113312
+Train loss : 1.5019836634397508
+Validation loss : 1.4946474903821945
+Train loss : 1.5019200637936592
+Validation loss : 1.4841699612140655
+Train loss : 1.5005471166968345
+Validation loss : 1.486940313577652
+Train loss : 1.501709331125021
+Validation loss : 1.4902026295661925
+Train loss : 1.4997235380113125
+Validation loss : 1.4867755246162415
+Train loss : 1.4991431719064712
+Validation loss : 1.486642194390297
+Train loss : 1.4988810431957245
+Validation loss : 1.482563698887825
+Train loss : 1.4991435581445693
+Validation loss : 1.4887823593616485
+Train loss : 1.4989802019298077
+Validation loss : 1.482349973320961
+Train loss : 1.49825116828084
+Validation loss : 1.4829735684394836
+Train loss : 1.4980656264722347
+Validation loss : 1.4913819175958634
+Train loss : 1.4980441091954708
+Validation loss : 1.4876536428928375
+Train loss : 1.497803636044264
+Validation loss : 1.484891111254692
+Train loss : 1.4965324477851392
+Validation loss : 1.4862738311290742
+Train loss : 1.4964501424133778
+Validation loss : 1.4973587143421172
+Train loss : 1.4954782707989216
+Validation loss : 1.4825679540634156
+Train loss : 1.495757987499237
+Validation loss : 1.4975119566917419
+Train loss : 1.4936953791975975
+Validation loss : 1.4834512716531754
+Train loss : 1.4949990020692348
+Validation loss : 1.4960801929235459
+Train loss : 1.4950613702833653
+Validation loss : 1.4816490429639817
+Train loss : 1.4930573153495788
+Validation loss : 1.4799639421701432
+Train loss : 1.4938350550830364
+Validation loss : 1.48812771320343
+Train loss : 1.492725920677185
+Validation loss : 1.5081739127635956
+Train loss : 1.4936401644349098
+Validation loss : 1.4942954248189926
+Train loss : 1.49302021920681
+Validation loss : 1.4864209204912187
+Train loss : 1.4924985916912556
+Validation loss : 1.4781125205755234
+Train loss : 1.4923676508665085
+Validation loss : 1.481831937432289
+Train loss : 1.4922070109844208
+Validation loss : 1.5024724227190018
+Train loss : 1.492850556373596
+Validation loss : 1.4912613701820374
+Train loss : 1.4916437274217607
+Validation loss : 1.4856560629606248
+Train loss : 1.4912016305327416
+Validation loss : 1.4875711953639985
+Train loss : 1.4908400286734105
+Validation loss : 1.476857586503029
+Train loss : 1.4909611018002034
+Validation loss : 1.4954610162973403
+Train loss : 1.49026845946908
+Validation loss : 1.4877476090192794
+Train loss : 1.490417354106903
+Validation loss : 1.4806721818447113
+Train loss : 1.4890352261066437
+Validation loss : 1.4855100762844087
+Train loss : 1.4895114508271217
+Validation loss : 1.4935718470811843
+Train loss : 1.488658200353384
+Validation loss : 1.478845801949501
+Train loss : 1.4888366647064686
+Validation loss : 1.4828734648227693
+Train loss : 1.4888837663829326
+Validation loss : 1.4861926406621933
+Train loss : 1.4887778171896935
+Validation loss : 1.4999773794412612
+Train loss : 1.4888621594011784
+Validation loss : 1.4970119470357894
+Train loss : 1.4885336722433566
+Validation loss : 1.4808832949399948
+Train loss : 1.4872573813796044
+Validation loss : 1.4811889016628266
+Train loss : 1.4873951511085033
+Validation loss : 1.4760994398593903
+Train loss : 1.4877273505926132
+Validation loss : 1.4789265936613083
+Train loss : 1.4878566564619542
+Validation loss : 1.4814009791612626
+Train loss : 1.486343641579151
+Validation loss : 1.4923793536424637
+Train loss : 1.4870690290629864
+Validation loss : 1.494546377658844
+Train loss : 1.4856675100326537
+Validation loss : 1.4754535847902297
+Train loss : 1.4857966902852058
+Validation loss : 1.4775840026140212
+Train loss : 1.4854409120976926
+Validation loss : 1.4894183814525603
+Train loss : 1.4865626040101052
+Validation loss : 1.4768265056610108
+Train loss : 1.4856035763025284
+Validation loss : 1.4851241624355316
+Train loss : 1.4854961451888085
+Validation loss : 1.4790321189165114
+Train loss : 1.4848013597726821
+Validation loss : 1.476123114824295
+Train loss : 1.4851702497899533
+Validation loss : 1.4837916588783264
+Train loss : 1.4846924486756325
+Validation loss : 1.4779668205976486
+Train loss : 1.484606990069151
+Validation loss : 1.4772934591770173
+Train loss : 1.483675943315029
+Validation loss : 1.492196193933487
+Train loss : 1.4849639075994492
+Validation loss : 1.4842059803009033
+Train loss : 1.48419593334198
+Validation loss : 1.4750883793830871
+Train loss : 1.4838250443339347
+Validation loss : 1.4907438898086547
+Train loss : 1.4841836139559745
+Validation loss : 1.4774808388948442
+Train loss : 1.4829432979226111
+Validation loss : 1.4828260135650635
+Train loss : 1.4826005195081233
+Validation loss : 1.4940001142024995
+Train loss : 1.4824512386322022
+Validation loss : 1.4741156017780304
+Train loss : 1.4827486468851567
+Validation loss : 1.4769761699438095
+Train loss : 1.482836513966322
+Validation loss : 1.4962086820602416
+Train loss : 1.4810011219978332
+Validation loss : 1.4873212689161301
+Train loss : 1.4821273326873778
+Validation loss : 1.4821171736717225
+Train loss : 1.4823180584609508
+Validation loss : 1.4750336331129075
+Train loss : 1.4819211311638356
+Validation loss : 1.478794966340065
+Train loss : 1.4817661118507386
+Validation loss : 1.4774987906217576
+Train loss : 1.4819251601397991
+Validation loss : 1.4847887235879897
+Train loss : 1.4811718462407588
+Validation loss : 1.4804365199804306
+Train loss : 1.4811236841976643
+Validation loss : 1.4968819719552995
+Train loss : 1.4811752681434154
+Validation loss : 1.4895083343982696
+Train loss : 1.4807559423148633
+Validation loss : 1.4946986252069474
+Train loss : 1.4809857280552388
+Validation loss : 1.4789501190185548
+Train loss : 1.4807701134681701
+Validation loss : 1.4921720463037491
+Train loss : 1.4806095317006112
+Validation loss : 1.4757765245437622
+Train loss : 1.4800389228761197
+Validation loss : 1.479138524532318
+Train loss : 1.4803546951711177
+Validation loss : 1.4814328616857528
+Train loss : 1.4798631316423416
+Validation loss : 1.4738104993104935
+Train loss : 1.4794118443131448
+Validation loss : 1.4726742935180663
+Train loss : 1.4803425033390523
+Validation loss : 1.4787658369541168
+Train loss : 1.4797057780623435
+Validation loss : 1.4759018296003341
+Train loss : 1.4790362420678138
+Validation loss : 1.4809127515554428
+Train loss : 1.4788562797009945
+Validation loss : 1.4733166158199311
+Train loss : 1.4788232582807541
+Validation loss : 1.4923027116060257
+Train loss : 1.479250415712595
+Validation loss : 1.4757172399759293
+Train loss : 1.4787156857550143
+Validation loss : 1.4734766107797623
+Train loss : 1.4780964949727058
+Validation loss : 1.4787213182449341
+Train loss : 1.4782089428603649
+Validation loss : 1.4782696533203126
+Train loss : 1.4781724464893342
+Validation loss : 1.4785170829296113
+Train loss : 1.4787588360905648
+Validation loss : 1.479775059223175
+Train loss : 1.4787564174830914
+Validation loss : 1.4800424206256866
+Train loss : 1.4771629378199578
+Validation loss : 1.4822003841400146
+Train loss : 1.4776994585990906
+Validation loss : 1.4769748932123183
+Train loss : 1.4779153099656106
+Validation loss : 1.4765298348665237
+Train loss : 1.477947710454464
+Validation loss : 1.4727746641635895
+Train loss : 1.4761662286520005
+Validation loss : 1.4759862983226777
+Train loss : 1.4772171373665333
+Validation loss : 1.4737545830011367
+Train loss : 1.47607933729887
+Validation loss : 1.4823296928405763
+Train loss : 1.4769833481311798
+Validation loss : 1.4846116417646409
+Train loss : 1.47674607783556
+Validation loss : 1.4767165493965149
+Train loss : 1.4761818474531174
+Validation loss : 1.4717351722717285
+Train loss : 1.4762049075961112
+Validation loss : 1.4820033675432205
+Train loss : 1.47561265707016
+Validation loss : 1.4738821452856063
+Train loss : 1.4755350901186466
+Validation loss : 1.4704050427675248
+Train loss : 1.4754227688908577
+Validation loss : 1.4746410709619522
+Train loss : 1.4757085052132606
+Validation loss : 1.4705494248867035
+Train loss : 1.4761398376524448
+Validation loss : 1.483578807115555
+Train loss : 1.4744342556595802
+Validation loss : 1.478777813911438
+Train loss : 1.4756291973590852
+Validation loss : 1.4714848166704178
+Train loss : 1.4757086880505086
+Validation loss : 1.4832388031482697
+Train loss : 1.4753224343061446
+Validation loss : 1.4738401705026627
+Train loss : 1.475465237647295
+Validation loss : 1.4753933203220368
+Train loss : 1.4758846168220043
+Validation loss : 1.4741674143075942
+Train loss : 1.4750158193707466
+Validation loss : 1.4864635848999024
+Train loss : 1.474239389449358
+Validation loss : 1.4716160947084427
+Train loss : 1.4748919680714607
+Validation loss : 1.484301626086235
+Train loss : 1.4747923332452775
+Validation loss : 1.4749183911085129
+Train loss : 1.4743302676081658
+Validation loss : 1.4710610163211824
+Train loss : 1.474280512034893
+Validation loss : 1.4714148598909378
+Train loss : 1.4741111780703067
+Validation loss : 1.475936886072159
+Train loss : 1.474094308167696
+Validation loss : 1.4748799961805343
+Train loss : 1.4734081473946572
+Validation loss : 1.4824584698677064
+Train loss : 1.473568702787161
+Validation loss : 1.4868568527698516
+Train loss : 1.4738353042304515
+Validation loss : 1.4744628190994262
+Train loss : 1.473912650346756
+Validation loss : 1.4733971554040908
+Train loss : 1.4739819261431695
+Validation loss : 1.4742404532432556
+Train loss : 1.4731101651489735
+Validation loss : 1.4712625581026078
+Train loss : 1.47371872022748
+Validation loss : 1.4750646936893463
+Train loss : 1.472956305295229
+Validation loss : 1.4695779675245284
+Train loss : 1.4731184120476246
+Validation loss : 1.4710732537508011
+Train loss : 1.4724126875400543
+Validation loss : 1.4723031216859817
+Train loss : 1.472122735977173
+Validation loss : 1.4687810921669007
+Train loss : 1.4719433490931988
+Validation loss : 1.4716369849443436
+Train loss : 1.4709665974974633
+Validation loss : 1.5017006003856659
+Train loss : 1.4725451654195785
+Validation loss : 1.469998518228531
+Train loss : 1.4718900614976882
+Validation loss : 1.4698049187660218
+Train loss : 1.4719479462504388
+Validation loss : 1.477985230088234
+Train loss : 1.4711252555251122
+Validation loss : 1.4687429410219193
+Train loss : 1.471593493670225
+Validation loss : 1.479175048470497
+Train loss : 1.4724599708616735
+Validation loss : 1.484343819618225
+Train loss : 1.4722961768507958
+Validation loss : 1.4695576524734497
+Train loss : 1.4721848897635936
+Validation loss : 1.471104834675789
+Train loss : 1.470959591269493
+Validation loss : 1.4744782847166062
+Train loss : 1.4718546670675279
+Validation loss : 1.4811827379465103
+Train loss : 1.471361899226904
+Validation loss : 1.4688869416713715
+Train loss : 1.4706833703815938
+Validation loss : 1.4826633244752885
+Train loss : 1.4715969279408454
+Validation loss : 1.4745597583055496
+Train loss : 1.471219900250435
+Validation loss : 1.4759440225362779
+Train loss : 1.4718342274427414
+Validation loss : 1.469308819770813
+Train loss : 1.4715207171440126
+Validation loss : 1.4690339332818985
+Train loss : 1.4707515375316143
+Validation loss : 1.471840769648552
+Train loss : 1.471258776038885
+Validation loss : 1.4766130530834198
+Train loss : 1.4708055160939693
+Validation loss : 1.4707367539405822
+Train loss : 1.4703793661296367
+Validation loss : 1.4711437845230102
+Train loss : 1.4698565657436848
+Validation loss : 1.4727396595478057
+Train loss : 1.470620604902506
+Validation loss : 1.474554222226143
+Train loss : 1.4707294230163097
+Validation loss : 1.4718716371059417
+Train loss : 1.4698245050013066
+Validation loss : 1.4745365768671035
+Train loss : 1.46949555426836
+Validation loss : 1.4743579000234603
+Train loss : 1.4708384363353253
+Validation loss : 1.4756120669841766
+Train loss : 1.4700731790065766
+Validation loss : 1.4727830690145494
+Train loss : 1.4706114362180234
+Validation loss : 1.4772984993457794
+Train loss : 1.4699055452644825
+Validation loss : 1.4681454807519914
+Train loss : 1.4707825429737569
+Validation loss : 1.4750588876008988
+Train loss : 1.4697371338307859
+Validation loss : 1.469419304728508
+Train loss : 1.4693914546072484
+Validation loss : 1.4819049781560898
+Train loss : 1.4700268691778182
+Validation loss : 1.4721213173866272
+Train loss : 1.4702510485053062
+Validation loss : 1.4704756915569306
+Train loss : 1.470011972039938
+Validation loss : 1.4690521746873855
+Train loss : 1.469383688569069
+Validation loss : 1.4708214884996413
+Train loss : 1.4684329146146775
+Validation loss : 1.4725312882661818
+Train loss : 1.468553566634655
+Validation loss : 1.4763290828466415
+Train loss : 1.4695225474238396
+Validation loss : 1.4711657005548477
+Train loss : 1.4688912314176559
+Validation loss : 1.4675885820388794
+Train loss : 1.4694750255346298
+Validation loss : 1.467265939116478
+Train loss : 1.4688730616867542
+Validation loss : 1.4674117517471315
+Train loss : 1.4685381664335728
+Validation loss : 1.4711885792016983
+Train loss : 1.4688570684194564
+Validation loss : 1.4742112052440643
+Train loss : 1.4681822469830512
+Validation loss : 1.467260584831238
+Train loss : 1.46846993252635
+Validation loss : 1.4694393849372864
+Train loss : 1.4677988596260547
+Validation loss : 1.4706386375427245
+Train loss : 1.4695308999717236
+Validation loss : 1.4679949802160264
+Train loss : 1.46844625338912
+Validation loss : 1.4689498901367188
+Train loss : 1.4683030691742898
+Validation loss : 1.47054281771183
+Train loss : 1.4676947116851806
+Validation loss : 1.4730238682031631
+Train loss : 1.4677873866260052
+Validation loss : 1.4791659283638001
+Train loss : 1.4675516046583652
+Validation loss : 1.4679312348365783
+Train loss : 1.4686049209535121
+Validation loss : 1.4772445261478424
+Train loss : 1.4678976060450077
+Validation loss : 1.4810611015558244
+Train loss : 1.4673840314149857
+Validation loss : 1.4774537259340286
+Train loss : 1.4678017058968544
+Validation loss : 1.471179223060608
+Train loss : 1.467978363931179
+Validation loss : 1.468501678109169
+Train loss : 1.4681899602711201
+Validation loss : 1.4684221208095551
+Train loss : 1.4686117056012153
+Validation loss : 1.4716115671396255
+Train loss : 1.4665231488645076
+Validation loss : 1.4681406325101853
+Train loss : 1.468365966975689
+Validation loss : 1.470945789217949
+Train loss : 1.4671002443134784
+Validation loss : 1.4858900552988052
+Train loss : 1.4677485777437687
+Validation loss : 1.4726947247982025
+Train loss : 1.4670675374567508
+Validation loss : 1.4712369000911714
+Train loss : 1.467211728543043
+Validation loss : 1.4727532160282135
+Train loss : 1.4678553506731986
+Validation loss : 1.46636726975441
+Train loss : 1.4667008681595326
+Validation loss : 1.477915214896202
+Train loss : 1.4663024371862412
+Validation loss : 1.4678380197286607
+Train loss : 1.4670543299615384
+Validation loss : 1.47358862221241
+Train loss : 1.466817053258419
+Validation loss : 1.4784010702371597
+Train loss : 1.46653345271945
+Validation loss : 1.4669144517183303
+Train loss : 1.466202907115221
+Validation loss : 1.4714915323257447
+Train loss : 1.466626253426075
+Validation loss : 1.4780598890781402
+Train loss : 1.4661222575604915
+Validation loss : 1.4682942932844163
+Train loss : 1.4660687081515789
+Validation loss : 1.4750459772348403
+Train loss : 1.465904158204794
+Validation loss : 1.4682813835144044
+Train loss : 1.4654285939037799
+Validation loss : 1.4671080881357192
+Train loss : 1.4655274038016797
+Validation loss : 1.4668779045343399
+Train loss : 1.4654205060005188
+Validation loss : 1.4711331248283386
+Train loss : 1.4665334405004977
+Validation loss : 1.4679619753360749
+Train loss : 1.466103176921606
+Validation loss : 1.4695427471399307
+Train loss : 1.4661737070977687
+Validation loss : 1.4805590450763702
+Train loss : 1.4656581808626652
+Validation loss : 1.4675932872295379
+Train loss : 1.4649102067947388
+Validation loss : 1.4763236224651337
+Train loss : 1.4652023530006408
+Validation loss : 1.4707834470272063
+Train loss : 1.4658762738108635
+Validation loss : 1.471025988459587
+Train loss : 1.4642994503676892
+Validation loss : 1.4728170156478881
+Train loss : 1.465534827262163
+Validation loss : 1.4748521590232848
+Train loss : 1.4648113229870796
+Validation loss : 1.4664864844083787
+Train loss : 1.4650115033984183
+Validation loss : 1.4706561774015428
+Train loss : 1.4652365311980247
+Validation loss : 1.474065338373184
+Train loss : 1.4649888959527015
+Validation loss : 1.4677103739976882
+Train loss : 1.465735827088356
+Validation loss : 1.4695198160409928
+Train loss : 1.465017158538103
+Validation loss : 1.478099194765091
+Train loss : 1.46383464589715
+Validation loss : 1.4686813986301421
+Train loss : 1.4648606127500534
+Validation loss : 1.4696368527412416
+Train loss : 1.464575441479683
+Validation loss : 1.4665534323453904
+Train loss : 1.4647333158552647
+Validation loss : 1.4792163592576981
+Train loss : 1.4647796311974526
+Validation loss : 1.4689651292562484
+Train loss : 1.4647195671498776
+Validation loss : 1.4806689310073853
+Train loss : 1.4640091049671173
+Validation loss : 1.468285652399063
+Train loss : 1.464664615392685
+Validation loss : 1.4820477384328843
+Train loss : 1.4644426429271697
+Validation loss : 1.4686723798513412
+Train loss : 1.4640470412373543
+Validation loss : 1.4685771042108535
+Train loss : 1.4643211688101292
+Validation loss : 1.4801266759634018
+Train loss : 1.4645689743757249
+Validation loss : 1.468056452870369
+Train loss : 1.4644340182840825
+Validation loss : 1.4686270129680634
+Train loss : 1.463903003036976
+Validation loss : 1.4673392313718796
+Train loss : 1.4636091849207877
+Validation loss : 1.4703529411554337
+Train loss : 1.463799041211605
+Validation loss : 1.4777240580320359
+Train loss : 1.4633528411388397
+Validation loss : 1.4785477060079575
+Train loss : 1.463682878613472
+Validation loss : 1.4776646250486374
+Train loss : 1.4637150280177593
+Validation loss : 1.4748541748523711
+Train loss : 1.463949264138937
+Validation loss : 1.4692990380525588
+Train loss : 1.4638727946579457
+Validation loss : 1.476688079237938
+Train loss : 1.4626951570808888
+Validation loss : 1.466289901137352
+Train loss : 1.4629133468866349
+Validation loss : 1.4699591225385666
+Train loss : 1.4635080319643021
+Validation loss : 1.4756000941991807
+Train loss : 1.4633758087456226
+Validation loss : 1.4668983298540115
+Train loss : 1.462729880809784
+Validation loss : 1.4717192101478576
+Train loss : 1.4630352902412413
+Validation loss : 1.4659451287984848
+Train loss : 1.4623729979991913
+Validation loss : 1.4710231643915177
+Train loss : 1.4628324063122273
+Validation loss : 1.4732770782709121
+Train loss : 1.463245462924242
+Validation loss : 1.4752733880281448
+Train loss : 1.4635083836317062
+Validation loss : 1.4664292293787002
+Train loss : 1.4630273522436619
+Validation loss : 1.4685497343540193
+Train loss : 1.4641746018826962
+Validation loss : 1.4709464293718337
+Train loss : 1.46194412201643
+Validation loss : 1.4742648482322693
+Train loss : 1.4624631796777248
+Validation loss : 1.4689859384298325
+Train loss : 1.4625952400267124
+Validation loss : 1.4739170390367509
+Train loss : 1.4622809962928296
+Validation loss : 1.4681567430496216
+Train loss : 1.4625997139513494
+Validation loss : 1.4705060774087906
+Train loss : 1.461656424999237
+Validation loss : 1.4766325843334198
+Train loss : 1.4623220084607602
+Validation loss : 1.4674335467815398
+Train loss : 1.462154420465231
+Validation loss : 1.4830008727312087
+Train loss : 1.4629808464646339
+Validation loss : 1.4680151283740996
+Train loss : 1.4618543674051763
+Validation loss : 1.4681477969884873
+Train loss : 1.4627800415456296
+Validation loss : 1.4707768315076828
+Train loss : 1.4619405952095985
+Validation loss : 1.466078333258629
+Train loss : 1.4617518018186093
+Validation loss : 1.4687919527292252
+Train loss : 1.4622407902777195
+Validation loss : 1.4715662503242493
+Train loss : 1.461360522955656
+Validation loss : 1.4671119898557663
+Train loss : 1.461670739799738
+Validation loss : 1.4693840116262435
+Train loss : 1.4609446799755097
+Validation loss : 1.4749947780370711
+Train loss : 1.4612605507671832
+Validation loss : 1.4722424793243407
+Train loss : 1.461723991781473
+Validation loss : 1.4682877230644227
+Train loss : 1.4611932222545148
+Validation loss : 1.4716676372289657
+Train loss : 1.460478664189577
+Validation loss : 1.467507637143135
+Train loss : 1.4612326668202877
+Validation loss : 1.4678929245471954
+Train loss : 1.4621088469028474
+Validation loss : 1.4668171221017838
+Train loss : 1.4621994729340075
+Validation loss : 1.4670112478733062
+Train loss : 1.460958506166935
+Validation loss : 1.4699468797445296
+Train loss : 1.4615556263923646
+Validation loss : 1.4704473263025284
+Train loss : 1.4619453728199006
+Validation loss : 1.4655910319089889
+Train loss : 1.4612281978130341
+Validation loss : 1.470297890305519
+Train loss : 1.461269149184227
+Validation loss : 1.4669045281410218
+Train loss : 1.4616311383247376
+Validation loss : 1.4667590713500978
+Train loss : 1.4612864716351033
+Validation loss : 1.4708940947055817
+Train loss : 1.4606248208880424
+Validation loss : 1.4686596238613128
+Train loss : 1.4614608520269394
+Validation loss : 1.475030637383461
+Train loss : 1.460668874233961
+Validation loss : 1.4658204758167266
+Train loss : 1.4606994558870792
+Validation loss : 1.467636775970459
+Train loss : 1.4606814529001713
+Validation loss : 1.4685503113269807
+Train loss : 1.4613331981003284
+Validation loss : 1.4650127607584
+Train loss : 1.4617416933178902
+Validation loss : 1.4751969808340073
+Train loss : 1.4609964594244957
+Validation loss : 1.4712669295072556
+Train loss : 1.4620516401529313
+Validation loss : 1.4659398263692855
+Train loss : 1.4607754510641098
+Validation loss : 1.4701139616966248
+Train loss : 1.4601243880391122
+Validation loss : 1.4683792901039123
+Train loss : 1.460936789959669
+Validation loss : 1.4702356249094009
+Train loss : 1.4602279996871947
+Validation loss : 1.4710315853357314
+Train loss : 1.4596915219724178
+Validation loss : 1.4688308680057525
+Train loss : 1.4590513323247434
+Validation loss : 1.4760486990213395
+Train loss : 1.4604082514345647
+Validation loss : 1.468688285946846
+Train loss : 1.4603566871583462
+Validation loss : 1.471574386358261
+Train loss : 1.460325666964054
+Validation loss : 1.4688939136266708
+Train loss : 1.4592113216221332
+Validation loss : 1.478605408668518
+Train loss : 1.460667414665222
+Validation loss : 1.4672139877080916
+Train loss : 1.460493480861187
+Validation loss : 1.4742384302616118
+Train loss : 1.4599697947502137
+Validation loss : 1.4685698759555816

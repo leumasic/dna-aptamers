@@ -173,7 +173,6 @@ for batch in test_dataloader:
     loss = RMSE(pred.squeeze(), y)
     print(loss.item())
 
-
 training_curves = np.load('training_data.npy')
 import matplotlib.pyplot as plt
 
