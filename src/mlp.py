@@ -108,7 +108,6 @@ def train(model, train_dataset, valid_dataset, epochs, learning_rate=0.1, batch_
 
 def make_dataset(file_name='variable_length_dataset.csv', targets=DNA_ONE_HOT):
     dataset = pd.read_csv(file_name, header=None, delimiter=',', dtype={0: str, 1: float})
-    # np_data = dataset.to_numpy()
     x_array = dataset.values[:, 0].astype(str)
     y_array = dataset.values[:, 1].astype(float)
 
@@ -147,9 +146,6 @@ class RMSELoss(nn.Module):
 
     def forward(self, pred, y):
         return torch.sqrt(self.mse(pred, y))
-#
-# def RMSELoss(prediction, y):
-#     return torch.sqrt(nn.MSELoss(prediction, y))
 
 dataset = make_dataset('1mill_dataset.csv')
 train_set, validation_set = split_dataset(dataset)
@@ -159,9 +155,9 @@ mlp_model = MLP(240, 1)
 
 # train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0005, batch_size=5, loss_func=nn.MSELoss(), device=DEVICE)
 tr_data = train(mlp_model, train_set, validation_set, epochs=50, learning_rate=0.0001, batch_size=10000, loss_func=RMSELoss(), device=DEVICE)
-torch.save(mlp_model.state_dict(), './mlp_model_1_mill.pt')
+torch.save(mlp_model.state_dict(), './mlp_model.pt')
 np.save('training_data.npy', tr_data)
-mlp_model.load_state_dict(torch.load('./mlp_model_1_mill.pt'))
+mlp_model.load_state_dict(torch.load('./mlp_model.pt'))
 mlp_model.eval()
 mlp_model.to(DEVICE)
 
