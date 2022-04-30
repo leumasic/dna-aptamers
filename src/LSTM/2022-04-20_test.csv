@@ -1,0 +1,2 @@
+,EPOCH,BATCH_SIZE,LR,N_HIDDEN_UNITS,NUM_LAYERS,data_used_n,min_val_loss_id,min_val_loss,test_mse,train_loss_list,val_loss_list,BI_DIR,note
+0,3,2,0.01,15,1,60,2,3.058287987206131,1.9326486225921258,"[0.5491802354919768, 0.5150449193481889, 0.4389804479710403]","[3.2311180591583253, 3.1648032173514364, 3.058287987206131]",True,add another layer at output neural network
