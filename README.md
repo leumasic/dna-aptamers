@@ -4,7 +4,7 @@
 
 Obviously, you first have to clone the repo.
 ```
-git clone https://github.com/Ileumassamuel/dna-aptamers.git
+git clone https://github.com/leumasic/dna-aptamers.git
 ```
 
 ### Mac/Linux users
@@ -30,7 +30,7 @@ Fish shell
 ```
 
 4. Get yourself the appropriate [nupack wheel
-   file](https://github.com/Ileumassamuel/dna-aptamers/releases/tag/nupack) for
+   file](https://github.com/leumasic/dna-aptamers/releases/tag/nupack) for
    your distribution
 
 5. Move the downloaded nupack wheel at the root level of the cloned repository
